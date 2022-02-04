@@ -1,7 +1,7 @@
 # 28.01.2022
 # 11-dars: IF-ELIF-ELSE 
 
-# son = -50/
+# son = -50
 
 # if son < 0:
     # print("Manfiy son")

@@ -43,7 +43,7 @@
 # mevalar.append("o'rik")
 # print(mevalar)
 
-# INSERT
+# INSERT -- > bu method orqali 3-indexga 'banan'qiymatini qo'shish uchun ishladiladi
 # mevalar.insert(3, "banan")
 # print(mevalar)
 
@@ -63,7 +63,7 @@
 # del cars[2]
 # print(cars)
 
-#   REMOVE
+#   REMOVE --> bu metod orqali listdagi 'gentra' qiymatini olib tashlaydi
 # cars.remove("gentra")
 # print(cars)
 
@@ -72,7 +72,7 @@
 # hayvonlar.remove("it")
 # print(hayvonlar)
 
-#  POP
+#  POP --> bu metod listdagi 1-elementni sug'urib oladi
 # bozorlik = ["yog'", "un", "go'sht", "sabzi"]
 # print(bozorlik)
 
@@ -81,9 +81,9 @@
 # print(bozorlik)
 
 # DASTUR
-bozorlik = ["yog'", "un", "go'sht", "sabzi"]
-mahsulot = bozorlik.pop(2)
-print(f"Men {mahsulot}ni sotib oldim")
-print(f"Olinmagan mahsulotlar--> {bozorlik}")
-mahsulot2 = bozorlik.pop()
-print(mahsulot2)
+# bozorlik = ["yog'", "un", "go'sht", "sabzi"]
+# mahsulot = bozorlik.pop(2)
+# print(f"Men {mahsulot}ni sotib oldim")
+# print(f"Olinmagan mahsulotlar--> {bozorlik}")
+# mahsulot2 = bozorlik.pop() # bu esa faqat oxirgi elementni sugurib oladi
+# print(mahsulot2)

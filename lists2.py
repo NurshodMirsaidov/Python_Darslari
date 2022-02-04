@@ -1,13 +1,13 @@
 # 26.01.2022
 # 8-dars: Ro'yxatlar bilan ishlash. O'zgarmas ro'yxatlar (Tuples)
 
-# cars = ["malibu", "gentra", "spark", "nexia", "matiz", "lacetti"]
+cars = ["malibu", "gentra", "spark", "nexia", "matiz", "lacetti"]
 # print(cars)
 
-# cars.sort()
+# cars.sort() # bu metod listni alifbo bo'yicha taxlaydi
 # print(cars)
 
-# cars.sort(reverse = True)
+# cars.sort(reverse = True) # bu esa alifboga teskari holda taxlaydi
 # print(cars)
 
 # print(sorted(cars))
@@ -21,7 +21,7 @@
 # print(sorted(sonlar))
 
 
-# cars.reverse()
+# cars.reverse() # bu metod alifbo tartibida emas o'zini teskari qiladi
 # print(cars)
 
 # print(len(cars))
@@ -37,13 +37,13 @@
 # sanash = list(range(0, 101, 10))
 # print(sanash)
 
-# max_qiymat = max(toq_sonlar)
+# max_qiymat = max(toq_sonlar)  # bu max funksiyasi eng katta qiymatni olib beradi
 # print(max_qiymat)
 
 # narxlar = [12000, 23000, 34000, 454545]
-# min_narx = min(narxlar)
+# min_narx = min(narxlar) # bu min funksiyasi eng katta qiymatni olib beradi
 # max_narx = max(narxlar)
-# summa = sum(narxlar)
+# summa = sum(narxlar) # bu metod listdagi barcha qiymatlarni summasini qo'shadi
 # print(min_narx, max_narx, summa)
 
 
