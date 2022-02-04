@@ -5,7 +5,7 @@
 # shahar = "Кукон"
 # viloyat = "Фаргона"
 
-# SAYT: UNICODE_TABLE.COM
+#                   SAYT: UNICODE_TABLE.COM
 # matn = "Men yangi telefon sotib oldim"
 
 # ism = "Nurshod"
@@ -19,7 +19,7 @@
 # familiya = "Hamroqulov"
 # print(ism + " " + familiya)
 
-# f string usuli
+#                           f string usuli
 # ism = "Jasur"
 # familiya = "Holiqov"
 # print(f"{ism} {familiya}")
@@ -97,10 +97,10 @@
 # viloyat = "Samarqand"
 # print(kocha, "ko`chasi,", mahalla, "mahallasi,", tuman, "tumani,", viloyat, "viloyati")
 
-kocha = input("Ko'chani nomini kiriting: ")
-mahalla = input("Mahalla nomini kiriting: ")
-tuman = input("Tuman nomini kiriting: ")
-viloyat = input("Viloyat nomini kiriting: ")
+# kocha = input("Ko'chani nomini kiriting: ")
+# mahalla = input("Mahalla nomini kiriting: ")
+# tuman = input("Tuman nomini kiriting: ")
+# viloyat = input("Viloyat nomini kiriting: ")
 # print(kocha, "ko`chasi,", mahalla, "mahallasi,", tuman, "tumani,", viloyat, "viloyati")
-manzil = f"{kocha} ko'chasi, {mahalla} mahallasi, {tuman} tumani, {viloyat} viloyati"
-print(manzil)
+# manzil = f"{kocha} ko'chasi, {mahalla} mahallasi, {tuman} tumani, {viloyat} viloyati"
+# print(manzil)
