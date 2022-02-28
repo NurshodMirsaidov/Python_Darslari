@@ -63,10 +63,10 @@
 # daraja(son1, son2)    
     
 
-son = int(input("son kiriting: "))
-def bolinish(num):
-    for x in range(2, 11):
-        if not num % x:
-            print(f"{num} soni {x}ga qoldiqsiz bo'linadi \n")
+# son = int(input("son kiriting: "))
+# def bolinish(num):
+#     for x in range(2, 11):
+#         if not num % x:
+#             print(f"{num} soni {x}ga qoldiqsiz bo'linadi \n")
         
-bolinish(son)
+# bolinish(son)
