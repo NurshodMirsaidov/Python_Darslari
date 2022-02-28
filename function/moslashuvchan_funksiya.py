@@ -27,42 +27,66 @@
 #     print(f"{avto['rangi']} {avto['model']}, Narxi: {narh}")
 
 # *
-def summa(*sonlar):
-    """Kiritilgan sonlar yig'indisini hisoblaydigan funsiya"""
-    yigindi = 0
-    for son in sonlar:
-        yigindi += son
-    return yigindi
-print(summa(2,3,4))
-print(summa(2,3,4, 2323))
-print(summa(2,3,4, 4, 5, 23))
+    # def summa(*sonlar):
+    #     """Kiritilgan sonlar yig'indisini hisoblaydigan funsiya"""
+    #     yigindi = 0
+    #     for son in sonlar:
+    #         yigindi += son
+    #     return yigindi
+    # print(summa(2,3,4))
+    # print(summa(2,3,4, 2323))
+    # print(summa(2,3,4, 4, 5, 23))
 
-def summa(*sonlar):
-    """Kiritilgan sonlar yig'indisini hisoblaydigan funsiya"""
-    return sum(sonlar)    
-print(summa(2,3,4))
-print(summa(2,3,4, 2323))
-print(summa(2,3,4, 4, 5, 23))
-
-
-def summa(x, y, *sonlar):
-    """Kiritilgan sonlar yig'indisini hisoblaydigan funsiya"""
-    return x + y + sum(sonlar)    
-
-print(summa(2,3,4))
-print(summa(2,3,4, 2323))
-print(summa(2,3,4, 4, 5, 23))
-# print(summa(2)) # false 
+    # def summa(*sonlar):
+    #     """Kiritilgan sonlar yig'indisini hisoblaydigan funsiya"""
+    #     return sum(sonlar)    
+    # print(summa(2,3,4))
+    # print(summa(2,3,4, 2323))
+    # print(summa(2,3,4, 4, 5, 23))
 
 
-# **kwargs
-def avto_info(kompaniya, model, **malumotlar):
-    malumotlar['kompaniya'] = kompaniya
-    malumotlar['model'] = model
-    return malumotlar 
+    # def summa(x, y, *sonlar):
+    #     """Kiritilgan sonlar yig'indisini hisoblaydigan funsiya"""
+    #     return x + y + sum(sonlar)    
 
-avto1 = avto_info("GM", "malibu", rang = 'qora', yil = 2005)
-avto2 = avto_info("GM", "lacetti", rang = 'oq', yil = 2010)
+    # print(summa(2,3,4))
+    # print(summa(2,3,4, 2323))
+    # print(summa(2,3,4, 4, 5, 23))
+    # # print(summa(2)) # false 
 
-print(avto1)
-print(avto2)
+
+    # # **kwargs
+    # def avto_info(kompaniya, model, **malumotlar):
+    #     malumotlar['kompaniya'] = kompaniya
+    #     malumotlar['model'] = model
+    #     return malumotlar 
+
+    # avto1 = avto_info("GM", "malibu", rang = 'qora', yil = 2005)
+    # avto2 = avto_info("GM", "lacetti", rang = 'oq', yil = 2010)
+
+    # print(avto1)
+    # print(avto2)
+
+# Amaliyot
+# 1.Istalgancha sonlarni qabul qilib, 
+# ularning ko'paytmasini qaytaruvchi funksiya yozing
+
+# def multiply(*sonlar):
+#     kopaytma = 1
+#     for son in sonlar:
+#         kopaytma = kopaytma * son
+#     return kopaytma
+
+# print(multiply(2, 3))
+# print(multiply(2, 3, 2))
+# print(multiply(2, 3, 12))
+
+# 2
+
+# def talabalar(ism, familiya, **info):
+#     info['ism'] = ism
+#     info['familiya'] = familiya
+#     return info
+
+# talaba = talabalar("Nurshod", "Mirsaidov", yoshi = 12, sinfi = "A")
+# print(talaba)
